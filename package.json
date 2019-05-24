@@ -1,0 +1,41 @@
+{
+  "name": "product_passport",
+  "version": "1.0.0",
+  "description": "## Sources: https://cointelegraph.com/news/chinese-retail-giant-to-use-blockchain-to-track-beef-prove-food-safety </b>",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaschwanden/BlockchainProductPassport.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaschwanden/BlockchainProductPassport/issues"
+  },
+  "homepage": "https://github.com/gaschwanden/BlockchainProductPassport#readme",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "bignumber": "^1.1.0",
+    "bower": "^1.8.4",
+    "component": "^1.1.0",
+    "es6-shim": "^0.35.3",
+    "jquery": "^3.3.1",
+    "simple-excel-js": "^1.0.0",
+    "truffle-core": "^4.1.8",
+    "web3": "github:ethereum/web3.js",
+    "webpack": "github:webpack/webpack",
+    "webpack-cli": "github:webpack/webpack-cli",
+    "yo-yoify": "^4.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "lite-server": "^2.3.0"
+  }
+}
